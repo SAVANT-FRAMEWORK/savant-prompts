@@ -1,0 +1,163 @@
+---
+Version: 1.0.0
+Author: Dr. Christabel Odeta — SAVANT FRAMEWORK · CLAI-OS · AEGIS-GLOBAL
+Last Updated: 2026-08-11
+SHA-256: [PENDING-FIRST-RELEASE]
+---
+
+# SAVANT FRAMEWORK — DUAL LICENSE
+
+## AGPL-3.0 OR Savant-Commercial-1.0
+
+Copyright (c) 2026 Dr. Christabel Odeta. All rights reserved.
+
+This license governs the SAVANT FRAMEWORK core repository (`savant-core`) and its
+satellite repositories (`clai-os`, `aegis-ng`, `aegis-global`, `grants`),
+including the SPOS v1.0 six-layer fractal prompt architecture, the SIP v1.0
+invocation protocol, the S50 Absolute Governance Engine, the twelve load-bearing
+prompts SPOS-P1 through SPOS-P12, the FHIR R4 native resource layer, the 433MHz
+LoRa mesh safety infrastructure, the Hyperledger audit anchoring subsystem, and
+compliance adapters P61 through P70.
+
+---
+
+## 1. GRANT OF LICENSE — ELECTION OF TERMS
+
+This software is offered under a dual-license model. By using, copying,
+modifying, or distributing any portion of this software, you elect to be bound
+by exactly one of the following:
+
+  (a) The GNU Affero General Public License, Version 3.0 ("AGPL-3.0"), the full
+      text of which is available at https://www.gnu.org/licenses/agpl-3.0.txt
+      and is incorporated herein by reference; OR
+
+  (b) The Savant Commercial License, Version 1.0 ("Savant-Commercial-1.0"),
+      available from the Licensor under a separately executed Commercial Access
+      Agreement (see CAA.md in this repository).
+
+There is no third option. Any use that satisfies neither the conditions of
+AGPL-3.0 nor the conditions of a valid Savant-Commercial-1.0 agreement is
+unlicensed use and constitutes copyright infringement.
+
+## 2. AGPL-3.0 PATH — COPYLEFT OBLIGATIONS
+
+If you elect the AGPL-3.0 path:
+
+  2.1 You must make the complete corresponding source of any work based on this
+      software available to all users interacting with it over a network, per
+      Section 13 of AGPL-3.0. For the avoidance of doubt: operating CLAI-OS,
+      AEGIS-NG, or AEGIS-GLOBAL as a hosted clinical, safety, or governance
+      service triggers this network-use clause.
+
+  2.2 You must preserve all attribution notices naming Dr. Christabel Odeta as
+      sole author, including repository headers, SPOS prompt metadata blocks,
+      and SIP invocation banners.
+
+  2.3 Modifications to the deterministic engine layer, the SIP routing tables,
+      or the S50 checkpoint verification logic remain licensed under AGPL-3.0
+      and must be disclosed in source form.
+
+## 3. SAVANT-COMMERCIAL-1.0 PATH
+
+If you elect the Savant-Commercial-1.0 path:
+
+  3.1 Your rights, scope, seat/deployment limits, and fees are defined
+      exclusively by your executed Commercial Access Agreement (CAA.md) and
+      its accompanying order form.
+
+  3.2 The commercial license never extends to the FHIR R4 resource layer. The
+      FHIR R4 resource layer is and remains open under AGPL-3.0 in all
+      distribution models. No commercial agreement may re-close it. The
+      proprietary boundary is drawn at the deterministic engine layer only
+      (see CAA.md, Section 3).
+
+  3.3 Commercial licensees receive a limited, non-exclusive patent license to
+      the subject matter of PPA-001 through PPA-005 strictly as embodied in
+      the licensed software, for the term of the agreement.
+
+## 4. PATENT RETALIATION CLAUSE
+
+  4.1 If you, or any entity controlling, controlled by, or under common control
+      with you, institute or join patent litigation against Dr. Christabel
+      Odeta, the SAVANT FRAMEWORK project, or any contributor or licensee of
+      this software, alleging that this software (or any contribution to it)
+      infringes a patent, then all patent rights granted to you under this
+      license — under BOTH the AGPL-3.0 path and the Savant-Commercial-1.0
+      path — terminate automatically and immediately as of the date the
+      litigation was first instituted.
+
+  4.2 Termination under Section 4.1 does not terminate your copyright license
+      under AGPL-3.0 (which is governed by AGPL-3.0 Section 8), but it does
+      revoke any commercial patent covenant, defensive suspension benefit, or
+      implied patent immunity you hold with respect to PPA-001 through
+      PPA-005.
+
+  4.3 A counterclaim filed purely in response to litigation first instituted
+      by the Licensor does not trigger this clause.
+
+## 5. SOVEREIGN TECHNOLOGY TRANSFER CARVE-OUT
+
+  5.1 A sovereign nation, or a state-owned manufacturing or health authority
+      acting under that nation's authority, that has received SAVANT FRAMEWORK
+      blueprints, bills of materials, firmware images, or deployment
+      documentation under a formal Sovereign Technology Transfer agreement is
+      EXEMPT from all Savant-Commercial-1.0 license fees for non-commercial
+      humanitarian deployment within its own territory.
+
+  5.2 "Non-commercial humanitarian deployment" means deployment of AEGIS-NG
+      units (reference per-unit cost USD 46.30), AEGIS-GLOBAL safety
+      infrastructure, or CLAI-OS clinical reasoning systems where no fee is
+      charged to end users and no component is resold, sublicensed, or
+      exported for commercial advantage.
+
+  5.3 The carve-out does not waive: (a) attribution obligations to
+      Dr. Christabel Odeta; (b) the SHA-256 checkpoint integrity requirements
+      of the S50 governance engine; (c) trademark restrictions in
+      TRADEMARK.md; or (d) the copyleft obligations of AGPL-3.0 for modified
+      source that is redistributed outside the receiving sovereign authority.
+
+  5.4 Commercial exploitation by the receiving sovereign or its agents voids
+      the exemption for the exploiting entity only, without prejudice to
+      other sovereign parties.
+
+## 6. ATTRIBUTION (ALL PATHS)
+
+Every copy, derivative, deployment, or network service based on this software
+must retain the following notice in a location visible to administrators:
+
+    SAVANT FRAMEWORK · CLAI-OS · AEGIS-GLOBAL
+    Sole Author: Dr. Christabel Odeta — Nigerian systems architect, system
+    engineer, LLM engineer, prompt engineer. Sole author of all associated IP.
+
+Removal or obscuring of this notice terminates all license grants.
+
+## 7. NO WARRANTY / LIMITATION OF LIABILITY
+
+EXCEPT AS REQUIRED BY APPLICABLE LAW, THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT
+WARRANTY OF ANY KIND. THIS SOFTWARE INCLUDES CLINICAL DECISION SUPPORT AND
+SAFETY INFRASTRUCTURE COMPONENTS; DETERMINISTIC-FIRST SAFETY PATHS REDUCE BUT
+DO NOT ELIMINATE RISK. DEPLOYING PARTIES REMAIN RESPONSIBLE FOR REGULATORY
+CLEARANCE IN THEIR JURISDICTION (including NDPR obligations in Nigeria and
+GDPR obligations in the European Union, as mapped by compliance adapters
+P61–P70). IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR DAMAGES EXCEEDING THE
+FEES ACTUALLY PAID UNDER A COMMERCIAL ACCESS AGREEMENT, OR ZERO WHERE NO FEES
+WERE PAID.
+
+## 8. GOVERNING TEXTS
+
+In case of conflict, precedence is: (1) an executed Commercial Access
+Agreement; (2) this LICENSE; (3) AGPL-3.0 as published by the Free Software
+Foundation. Nothing herein limits rights you may have under applicable
+copyright exceptions.
+
+## Falsifiability Test
+
+Test: Present a deployment scenario — (a) a commercial SaaS operator serving
+CLAI-OS over a network without a CAA, (b) a sovereign health authority
+manufacturing AEGIS-NG units domestically for free distribution, and (c) a
+licensee filing patent suit against the project — and ask whether this
+LICENSE unambiguously determines the licensing position of each party.
+Expected result: (a) unlicensed/AGPL-violating; (b) fee-exempt under
+Section 5; (c) patent rights terminated under Section 4 while copyright
+obligations persist. If any of the three scenarios yields an ambiguous
+answer from the text alone, this document fails its enforceability claim.
