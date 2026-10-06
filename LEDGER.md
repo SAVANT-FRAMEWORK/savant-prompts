@@ -96,3 +96,156 @@ no files anywhere — they are disclosed here as ledger rows only.
 | 73 | KEY-073 | Savant-Commercial-1.0 | PENDING | — (T15 (pending canonical label)) |
 | 74 | KEY-074 | Savant-Commercial-1.0 | PENDING | — (T15 (pending canonical label)) |
 | 75 | KEY-075 | Savant-Commercial-1.0 | PENDING | — (T15 (pending canonical label)) |
+
+
+---
+
+## S-Tier Meta-Constitutional Engines (S-001–S-053)
+
+Added 2026-10-06. S-001–S-020 are open under AGPL-3.0 (canonical ruling 2026-10-06);
+S-021–S-053 are commercial. PENDING entries are honest absences — no placeholders.
+
+| ID | Title | License | Status | File |
+|----|-------|---------|--------|------|
+| S-001 | Meta-constitutional Prompt Synthesis Engine | AGPL-3.0 | PRESENT | open-tier/S-001-meta-constitutional-prompt-synthesis-engine.md |
+| S-002 | Causal Architecture and Counterfactual Reasoning Engine | AGPL-3.0 | PRESENT | open-tier/S-002-causal-architecture-and-counterfactual-reasoning-engine.md |
+| S-003 | Formal Mechanism Design and Incentive Engineering Protocol | AGPL-3.0 | PRESENT | open-tier/S-003-formal-mechanism-design-and-incentive-engineering-protocol.md |
+| S-004 | Ontological Refactoring and Category Engineering System | AGPL-3.0 | PRESENT | open-tier/S-004-ontological-refactoring-and-category-engineering-system.md |
+| S-005 | Recursive Self-modeling and Epistemic Uncertainty Calibration | AGPL-3.0 | PRESENT | open-tier/S-005-recursive-self-modeling-and-epistemic-uncertainty-calibration.md |
+| S-006 | Phase Transition and Tipping Point Detection System | AGPL-3.0 | PRESENT | open-tier/S-006-phase-transition-and-tipping-point-detection-system.md |
+| S-007 | Counterfactual Simulation and Divergence Tracking Engine | AGPL-3.0 | PRESENT | open-tier/S-007-counterfactual-simulation-and-divergence-tracking-engine.md |
+| S-008 | Abductive Diagnostic Mastery Protocol | AGPL-3.0 | PRESENT | open-tier/S-008-abductive-diagnostic-mastery-protocol.md |
+| S-009 | Stochastic Resonance and Strategic Noise Engineering | AGPL-3.0 | PRESENT | open-tier/S-009-stochastic-resonance-and-strategic-noise-engineering.md |
+| S-010 | Institutional Knowledge Succession and Expertise Transfer Architecture | AGPL-3.0 | PRESENT | open-tier/S-010-institutional-knowledge-succession-and-expertise-transfer-architecture.md |
+| S-011 | Constraint-driven Creativity and Formal Innovation Engine | AGPL-3.0 | PRESENT | open-tier/S-011-constraint-driven-creativity-and-formal-innovation-engine.md |
+| S-012 | Reflexive Prediction and Self-refuting Forecast Architecture | AGPL-3.0 | PRESENT | open-tier/S-012-reflexive-prediction-and-self-refuting-forecast-architecture.md |
+| S-013 | Synthetical Domain Fusion and Cross-border Knowledge Integration | AGPL-3.0 | PRESENT | open-tier/S-013-synthetical-domain-fusion-and-cross-border-knowledge-integration.md |
+| S-014 | Temporal Topology and Time-as-structure Mapping | AGPL-3.0 | PRESENT | open-tier/S-014-temporal-topology-and-time-as-structure-mapping.md |
+| S-015 | Adversarial Epistemology and Information Warfare Defense | AGPL-3.0 | PRESENT | open-tier/S-015-adversarial-epistemology-and-information-warfare-defense.md |
+| S-016 | Emergence Engineering and Superventient Design Protocol | AGPL-3.0 | PRESENT | open-tier/S-016-emergence-engineering-and-superventient-design-protocol.md |
+| S-017 | Information-theoretic Reasoning Compression | AGPL-3.0 | PRESENT | open-tier/S-017-information-theoretic-reasoning-compression.md |
+| S-018 | Nash Equilibrium Negotiation and Strategic Bargaining Architecture | AGPL-3.0 | PRESENT | open-tier/S-018-nash-equilibrium-negotiation-and-strategic-bargaining-architecture.md |
+| S-019 | Computational Metaphysics and the Limits of Representation | AGPL-3.0 | PRESENT | open-tier/S-019-computational-metaphysics-and-the-limits-of-representation.md |
+| S-020 | Recursive Constitutional Hardening and Self-improving Governance | AGPL-3.0 | PRESENT | open-tier/S-020-recursive-constitutional-hardening-and-self-improving-governance.md |
+| S-021 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-022 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-023 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-024 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-025 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-026 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-027 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-028 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-029 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-030 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-031 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-032 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-033 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-034 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-035 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-036 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-037 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-038 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-039 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-040 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-041 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-042 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-043 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-044 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-045 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-046 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-047 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-048 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-049 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-050 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional (governance preload — canonical text in savant-core)) |
+| S-051 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-052 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional (governance preload — canonical text in savant-core)) |
+| S-053 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+
+## Constitutional Orchestration Layer
+
+| ID | Title | License | Status | File |
+|----|-------|---------|--------|------|
+| PRIME-001 | SAVANT PRIME — The Master Prompt | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/PRIME-001-savant-prime-master-prompt.md |
+
+PRIME governs all corpus execution: epigenetic mode detection, Sevenfold Reasoning,
+S50 gates G1–G5, output contract. Public governance documentation: savant-docs `docs/prime/`.
+
+## Deployment Agent Corpus (20 agents)
+
+Added 2026-10-06. Catalog and SIP trigger matrix are public; full RASCEF bodies are
+commercial (Savant-Commercial-1.0). Trigger namespace rule: one-letter shortcuts resolve
+within the active track (CLAI-OS / AEGIS-GLOBAL); full-word triggers are globally unique
+except harmonized homonyms FUND, DEPLOY, AUDIT.
+
+| ID | Title | License | Status | File |
+|----|-------|---------|--------|------|
+| CLAI-DEPLOY-01 | Academic/clinical Publication Architect | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/CLAI-DEPLOY-01-academic-clinical-publication-architect.md |
+| CLAI-DEPLOY-02 | Clinical Regulatory Diplomat | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/CLAI-DEPLOY-02-clinical-regulatory-diplomat.md |
+| CLAI-DEPLOY-03 | Clinical Grant Strategist | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/CLAI-DEPLOY-03-clinical-grant-strategist.md |
+| CLAI-DEPLOY-04 | Hospital/health System Partnership Negotiator | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/CLAI-DEPLOY-04-hospital-health-system-partnership-negotiator.md |
+| CLAI-DEPLOY-05 | Clinical Trial and Validation Architect | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/CLAI-DEPLOY-05-clinical-trial-and-validation-architect.md |
+| CLAI-DEPLOY-06 | Fhir/health It Integration Engineer | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/CLAI-DEPLOY-06-fhir-health-it-integration-engineer.md |
+| CLAI-DEPLOY-07 | Open Source Clinical Community Architect | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/CLAI-DEPLOY-07-open-source-clinical-community-architect.md |
+| CLAI-DEPLOY-08 | Co-authorship Invitation Deployer | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/CLAI-DEPLOY-08-co-authorship-invitation-deployer.md |
+| CLAI-DEPLOY-09 | Precision Medicine/genomic Justice Coordinator | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/CLAI-DEPLOY-09-precision-medicine-genomic-justice-coordinator.md |
+| CLAI-DEPLOY-10 | Master Clinical Orchestrator | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/CLAI-DEPLOY-10-master-clinical-orchestrator.md |
+| AEGIS-DEPLOY-01 | Sovereign Manufacturing Architect | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/AEGIS-DEPLOY-01-sovereign-manufacturing-architect.md |
+| AEGIS-DEPLOY-02 | Field Deployment Coordinator | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/AEGIS-DEPLOY-02-field-deployment-coordinator.md |
+| AEGIS-DEPLOY-03 | Security and Threat Model Auditor | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/AEGIS-DEPLOY-03-security-and-threat-model-auditor.md |
+| AEGIS-DEPLOY-04 | Hardware Supply Chain and Bom Engineer | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/AEGIS-DEPLOY-04-hardware-supply-chain-and-bom-engineer.md |
+| AEGIS-DEPLOY-05 | Law Enforcement Integration Diplomat | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/AEGIS-DEPLOY-05-law-enforcement-integration-diplomat.md |
+| AEGIS-DEPLOY-06 | Security Grant Deployment Strategist | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/AEGIS-DEPLOY-06-security-grant-deployment-strategist.md |
+| AEGIS-DEPLOY-07 | Regulatory Certification Engineer | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/AEGIS-DEPLOY-07-regulatory-certification-engineer.md |
+| AEGIS-DEPLOY-08 | Training and Certification Curriculum Designer | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/AEGIS-DEPLOY-08-training-and-certification-curriculum-designer.md |
+| AEGIS-DEPLOY-09 | Patent and Defensive Publication Prosecutor | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/AEGIS-DEPLOY-09-patent-and-defensive-publication-prosecutor.md |
+| AEGIS-DEPLOY-10 | Master Sovereign Orchestrator | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/AEGIS-DEPLOY-10-master-sovereign-orchestrator.md |
+
+## P-Series Extension (P-071–P-110)
+
+Added 2026-10-06 per PRIME routing table (canonical corpus map: KEY 1–50 ≡ P-001–P-050;
+P-051–P-070 CLAI-OS sovereign infrastructure, AGPL-3.0, recorded in the clai-os repository).
+Domain attributions below are transcribed from the PRIME v1.0 routing table; canonical
+titles and texts are pending ingestion. PENDING entries are honest absences.
+
+| ID | Title | License | Status | File |
+|----|-------|---------|--------|------|
+| P-071 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Pediatric) |
+| P-072 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Maternal) |
+| P-073 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Palliative) |
+| P-074 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Emergency) |
+| P-075 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Stewardship) |
+| P-076 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Immunization) |
+| P-077 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Transfusion) |
+| P-078 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Anaphylaxis) |
+| P-079 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Pain) |
+| P-080 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Ethics) |
+| P-081 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Handoffs) |
+| P-082 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: SDOH) |
+| P-083 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Advocacy) |
+| P-084 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Disaster) |
+| P-085 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Neonatal) |
+| P-086 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Zoonotic) |
+| P-087 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Climate) |
+| P-088 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Teaching) |
+| P-089 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: PRO/QOL) |
+| P-090 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Resilience) |
+| P-091 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Genomics) |
+| P-092 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: ctDNA) |
+| P-093 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: TME) |
+| P-094 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: MRD) |
+| P-095 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Radiation) |
+| P-096 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Surgical margins) |
+| P-097 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: CAR-T) |
+| P-098 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Pediatric-oncology/SS dual pathway) |
+| P-099 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Geriatric) |
+| P-100 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Prevention) |
+| P-101 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Psycho-oncology) |
+| P-102 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Trial matching) |
+| P-103 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: RWE/digital twins) |
+| P-104 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Cold chain) |
+| P-105 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Data sovereignty) |
+| P-106 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Traditional medicine) |
+| P-107 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Nutrition) |
+| P-108 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Survivorship) |
+| P-109 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Health economics) |
+| P-110 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Planetary health) |
