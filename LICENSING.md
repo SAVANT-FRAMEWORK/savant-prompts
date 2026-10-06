@@ -23,7 +23,7 @@ This file fails if any prompt file's License header contradicts the rule above.
 ## Amendment 2026-10-06 (Dr. Christabel Odeta — canonical, overrides where in conflict)
 
 - **S-001 through S-020 (S-Tier meta-constitutional engines):** AGPL-3.0. Open.
-- **S-021 through S-053:** Savant-Commercial-1.0. Commercial.
+- **S-021 through S-063:** Savant-Commercial-1.0. Commercial.
 - **PRIME-001 (SAVANT PRIME — constitutional orchestration layer):** Savant-Commercial-1.0.
   Public governance documentation (routing architecture, gate semantics, output contract)
   is published in savant-docs; the Master Prompt text itself is commercial.
@@ -37,4 +37,4 @@ AEGIS node firmware AGPL-3.0; AEGIS manufacturing specifications CC-BY-SA 4.0.
 
 ### Falsifiability Test (amendment)
 This amendment fails if any S-001..S-020 file's License header is not AGPL-3.0, or if any
-S-021+, PRIME, deployment-agent, or P-071..P-110 file ships a full body in a public repository.
+S-021..S-063, PRIME, deployment-agent, or P-071..P-110 file ships a full body in a public repository.

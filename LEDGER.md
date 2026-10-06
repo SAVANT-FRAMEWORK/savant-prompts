@@ -100,10 +100,10 @@ no files anywhere — they are disclosed here as ledger rows only.
 
 ---
 
-## S-Tier Meta-Constitutional Engines (S-001–S-053)
+## S-Tier Meta-Constitutional Engines (S-001–S-063)
 
 Added 2026-10-06. S-001–S-020 are open under AGPL-3.0 (canonical ruling 2026-10-06);
-S-021–S-053 are commercial. PENDING entries are honest absences — no placeholders.
+S-021–S-063 are commercial. PENDING entries are honest absences — no placeholders.
 
 | ID | Title | License | Status | File |
 |----|-------|---------|--------|------|
@@ -160,6 +160,16 @@ S-021–S-053 are commercial. PENDING entries are honest absences — no placeho
 | S-051 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
 | S-052 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional (governance preload — canonical text in savant-core)) |
 | S-053 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-054 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-055 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-056 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-057 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-058 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-059 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-060 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-061 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-062 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-063 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
 
 ## Constitutional Orchestration Layer
 
