@@ -104,6 +104,9 @@ no files anywhere — they are disclosed here as ledger rows only.
 
 Added 2026-10-06. S-001–S-020 are open under AGPL-3.0 (canonical ruling 2026-10-06);
 S-021–S-063 are commercial. PENDING entries are honest absences — no placeholders.
+Titles for S-021–S-052 and the S-053–S-062 block label are VERIFIED-FROM-SOURCE
+(SAVANT Core Index v1.0); P-071–P-075 names VERIFIED-FROM-SOURCE (Constitutional
+Intelligence Series, Chunk 11).
 
 | ID | Title | License | Status | File |
 |----|-------|---------|--------|------|
@@ -127,49 +130,49 @@ S-021–S-063 are commercial. PENDING entries are honest absences — no placeho
 | S-018 | Nash Equilibrium Negotiation and Strategic Bargaining Architecture | AGPL-3.0 | PRESENT | open-tier/S-018-nash-equilibrium-negotiation-and-strategic-bargaining-architecture.md |
 | S-019 | Computational Metaphysics and the Limits of Representation | AGPL-3.0 | PRESENT | open-tier/S-019-computational-metaphysics-and-the-limits-of-representation.md |
 | S-020 | Recursive Constitutional Hardening and Self-improving Governance | AGPL-3.0 | PRESENT | open-tier/S-020-recursive-constitutional-hardening-and-self-improving-governance.md |
-| S-021 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-022 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-023 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-024 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-025 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-026 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-027 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-028 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-029 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-030 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-031 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-032 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-033 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-034 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-035 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-036 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-037 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-038 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-039 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-040 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-041 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-042 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-043 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-044 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-045 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-046 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-047 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-048 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-049 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-050 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional (governance preload — canonical text in savant-core)) |
-| S-051 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-052 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional (governance preload — canonical text in savant-core)) |
-| S-053 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-054 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-055 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-056 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-057 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-058 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-059 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-060 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-061 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-062 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
-| S-063 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional) |
+| S-021 | Quantum Decision Architecture | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `QUANTUM`) |
+| S-022 | Antifragile Systems | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `BIOMIMETIC`) |
+| S-023 | Sign-System Engineering | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `SEMIOTIC`) |
+| S-024 | Shape-Aware Strategy | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `TOPOLOGICAL`) |
+| S-025 | Narrative Causality | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `NARRATIVE`) |
+| S-026 | Gauge Architecture | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `SYMMETRY`) |
+| S-027 | Basin Design | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `ATTRACTOR`) |
+| S-028 | Functorial Design | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `CATEGORY`) |
+| S-029 | Information Geometry | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `INFO-GEO`) |
+| S-030 | Active Inference | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `ACTIVE`) |
+| S-031 | Hyperstition Engineering | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `HYPERSTITION`) |
+| S-032 | Numinous Architecture | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `NUMINOUS`) |
+| S-033 | Post-Quantum Trust | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `POST-Q`) |
+| S-034 | Morphogenetic Patterns | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `MORPHO`) |
+| S-035 | Self-Producing Systems | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `AUTOPOIESIS`) |
+| S-036 | Interface Transparency | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `PHENOMENOLOGY`) |
+| S-037 | Renormalization Group | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `RG`) |
+| S-038 | Adversarial Robustness | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `GRAD-FREE`) |
+| S-039 | Extended Mind | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `EXTENDED`) |
+| S-040 | Indirect Coordination | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `STIGMERGY`) |
+| S-041 | Synchronization Engineering | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `SYNC`) |
+| S-042 | Dissipative Structures | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `DISSIPATIVE`) |
+| S-043 | Negative Capability | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `NEGATIVE`) |
+| S-044 | Via Negativa Design | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `APOPHATIC`) |
+| S-045 | Ostrom Governance | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `POLYCENTRIC`) |
+| S-046 | Self-Reference Calculus | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `RE-ENTRY`) |
+| S-047 | Recursive Objects | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `EIGENFORM`) |
+| S-048 | Latent Space Cartography | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `LATENT`) |
+| S-049 | Oscillatory Reasoning | Savant-Commercial-1.0 | PENDING | — (S-Tier meta-constitutional · trigger `METAMODERN`) |
+| S-050 | The Absolute (Ω) | Savant-Commercial-1.0 | PENDING | — (governance preload — canonical text in savant-core) |
+| S-051 | Defensive Publication Compiler | Savant-Commercial-1.0 | PENDING | — (S-Tier; subject to pre-disclosure legal review) |
+| S-052 | Universal Document Compiler | Savant-Commercial-1.0 | PENDING | — (governance preload — canonical text in savant-core) |
+| S-053 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier repository-genesis→analytics series per Core Index v1.0) |
+| S-054 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier repository-genesis→analytics series per Core Index v1.0) |
+| S-055 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier repository-genesis→analytics series per Core Index v1.0) |
+| S-056 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier repository-genesis→analytics series per Core Index v1.0) |
+| S-057 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier repository-genesis→analytics series per Core Index v1.0) |
+| S-058 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier repository-genesis→analytics series per Core Index v1.0) |
+| S-059 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier repository-genesis→analytics series per Core Index v1.0) |
+| S-060 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier repository-genesis→analytics series per Core Index v1.0) |
+| S-061 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier repository-genesis→analytics series per Core Index v1.0) |
+| S-062 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier repository-genesis→analytics series per Core Index v1.0) |
+| S-063 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier ceiling per canonical ruling 2026-10-06; unnamed in Core Index v1.0) |
 
 ## Constitutional Orchestration Layer
 
@@ -219,11 +222,11 @@ titles and texts are pending ingestion. PENDING entries are honest absences.
 
 | ID | Title | License | Status | File |
 |----|-------|---------|--------|------|
-| P-071 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Pediatric) |
-| P-072 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Maternal) |
-| P-073 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Palliative) |
-| P-074 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Emergency) |
-| P-075 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Stewardship) |
+| P-071 | Pediatric Guardian | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Pediatric) |
+| P-072 | Maternal Protector | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Maternal) |
+| P-073 | Palliative Navigator | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Palliative) |
+| P-074 | Emergency Architect | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Emergency) |
+| P-075 | AMR Fighter | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Stewardship) |
 | P-076 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Immunization) |
 | P-077 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Transfusion) |
 | P-078 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Anaphylaxis) |
