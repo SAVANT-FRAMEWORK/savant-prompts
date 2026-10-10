@@ -100,10 +100,10 @@ no files anywhere — they are disclosed here as ledger rows only.
 
 ---
 
-## S-Tier Meta-Constitutional Engines (S-001–S-063)
+## S-Tier Meta-Constitutional Engines (S-001–S-062)
 
 Added 2026-10-06. S-001–S-020 are open under AGPL-3.0 (canonical ruling 2026-10-06);
-S-021–S-063 are commercial. PENDING entries are honest absences — no placeholders.
+S-021–S-062 are commercial. PENDING entries are honest absences — no placeholders.
 Titles for S-021–S-052 and the S-053–S-062 block label are VERIFIED-FROM-SOURCE
 (SAVANT Core Index v1.0); P-071–P-075 names VERIFIED-FROM-SOURCE (Constitutional
 Intelligence Series, Chunk 11).
@@ -172,7 +172,17 @@ Intelligence Series, Chunk 11).
 | S-060 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier repository-genesis→analytics series per Core Index v1.0) |
 | S-061 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier repository-genesis→analytics series per Core Index v1.0) |
 | S-062 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier repository-genesis→analytics series per Core Index v1.0) |
-| S-063 | — | Savant-Commercial-1.0 | PENDING | — (S-Tier ceiling per canonical ruling 2026-10-06; unnamed in Core Index v1.0) |
+## S-Tier Closure Ruling (2026-10-10)
+
+Per the SAVANT Unified Corpus Integration v2.0 (2026-10-02), defect D1 resolution:
+the canonical S-registry is **S-001–S-062 plus the 14-Day Master Delegation
+Template**. The source document's "63 prompts" banner counted the template; no
+S-063 prompt exists. The earlier 2026-10-06 ceiling ruling (S1–S63) is superseded.
+The registry closes at S-062:
+
+| Artifact | License | Status |
+|----------|---------|--------|
+| Master Delegation Template (ORCHESTRATE: [MASTER] / O:MASTER) — coordinates S-053–S-062 as delegated work packages across 10 phases | Savant-Commercial-1.0 | ABSTRACT-ONLY |
 
 ## Constitutional Orchestration Layer
 
