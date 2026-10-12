@@ -46,7 +46,7 @@ Downstream integration: P02 consumes interface contracts; P03 consumes scale bou
 
 ## Merits
 
-Source-stated outcomes: elimination of the majority of architectural rework between prototype and production, and materially fewer cost surprises through upfront calculator discipline (the source claims an 80% rework reduction and 60% cost-surprise reduction). The operational merit is that failure modes, costs, and scaling limits are written down and traceable before code exists — decisions are linked to commits, assumptions to sources, and diagrams to deployed infrastructure. The deterministic/LLM labeling discipline also removes a class of compliance errors, such as routing PII classification through a third-party LLM endpoint.
+Stated outcomes: elimination of the majority of architectural rework between prototype and production, and materially fewer cost surprises through upfront calculator discipline (a claimed 80% rework reduction and 60% cost-surprise reduction). The operational merit is that failure modes, costs, and scaling limits are written down and traceable before code exists — decisions are linked to commits, assumptions to sources, and diagrams to deployed infrastructure. The deterministic/LLM labeling discipline also removes a class of compliance errors, such as routing PII classification through a third-party LLM endpoint.
 
 ## Guidance for Use
 

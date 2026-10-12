@@ -32,7 +32,7 @@ Concrete artifacts:
 - `deliverables/p12-ab-framework.md` — experiment design, statistical methods, winner criteria.
 - `deliverables/p12-quality-dashboard.json` — Grafana dashboard configuration.
 
-Debugging checks from the source: golden dataset above 100 labeled pairs with inter-annotator agreement above 0.80; automated metrics matching manual calculation within 1%; an injected 10% degradation alerting within 3 evaluation runs; A/B false-positive rate under 5% and false-negative rate under 20% at expected effect size; component attribution correctly identifying the broken stage over 90% of the time; evaluations running hourly in CI and daily in production.
+Debugging checks: golden dataset above 100 labeled pairs with inter-annotator agreement above 0.80; automated metrics matching manual calculation within 1%; an injected 10% degradation alerting within 3 evaluation runs; A/B false-positive rate under 5% and false-negative rate under 20% at expected effect size; component attribution correctly identifying the broken stage over 90% of the time; evaluations running hourly in CI and daily in production.
 
 Telemetry thresholds from the operations abstract: evaluation runtime under 10 minutes in CI; metric drift detection within 24 hours; false-positive (flaky test) rate under 2%.
 
@@ -40,7 +40,7 @@ Downstream integration: P21 consumes evaluation reports as optimization objectiv
 
 ## Merits
 
-Source-stated outcomes: 50% faster detection of RAG quality regressions and a 30% improvement in answer faithfulness through targeted iteration; the operations abstract reports a legal-tech case where an "improvement" that actually reduced accuracy by 5% was caught before deployment. The structural merit is attribution: because every metric traces to a component, iteration effort goes to the stage that is actually broken rather than to whichever stage someone suspects.
+Stated outcomes: 50% faster detection of RAG quality regressions and a 30% improvement in answer faithfulness through targeted iteration; the operations abstract reports a legal-tech case where an "improvement" that actually reduced accuracy by 5% was caught before deployment. The structural merit is attribution: because every metric traces to a component, iteration effort goes to the stage that is actually broken rather than to whichever stage someone suspects.
 
 ## Guidance for Use
 
@@ -52,6 +52,6 @@ Source-stated outcomes: 50% faster detection of RAG quality regressions and a 30
 
 **Pairing:** run P12 before and after any change to P06–P11 — it is the acceptance test for the entire RAG tier. Wire its outputs to P28 so user feedback continuously augments the golden dataset.
 
-**Common misuse:** evaluating end-to-end only, which hides which component regressed; A/B tests without power analysis, which burn time to reach "inconclusive"; trusting a single LLM judge without calibration; and treating evaluation as a pre-launch checkbox rather than a permanent CI gate — the source pattern is block-on-regression, not measure-once.
+**Common misuse:** evaluating end-to-end only, which hides which component regressed; A/B tests without power analysis, which burn time to reach "inconclusive"; trusting a single LLM judge without calibration; and treating evaluation as a pre-launch checkbox rather than a permanent CI gate — the canonical pattern is block-on-regression, not measure-once.
 
 C0 informational classification; confers no clinical, legal, financial, or safety authority.

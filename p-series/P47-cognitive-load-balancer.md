@@ -31,7 +31,7 @@ Described at the methodological level only; operational detail is withheld.
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - Human engagement above 70% active monitoring.
 - Handoff time under two seconds.
 - Skill maintenance verified quarterly.

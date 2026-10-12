@@ -38,7 +38,7 @@ Downstream integration: P11 consumes the ranked, relevance-scored chunks for win
 
 ## Merits
 
-Source-stated outcomes for the query-processing pipeline: a 40% improvement in answer relevance scores and a 30% reduction in irrelevant context injection, with expansion improving recall by over 20% in the reference deployment. The structural merit is that query-side quality is measured per stage — classification, rewrite, expansion, filter extraction, rerank — so a precision failure is attributable to a stage rather than blamed on the index or the embeddings, which are usually innocent.
+Stated outcomes for the query-processing pipeline: a 40% improvement in answer relevance scores and a 30% reduction in irrelevant context injection, with expansion improving recall by over 20% in the reference deployment. The structural merit is that query-side quality is measured per stage — classification, rewrite, expansion, filter extraction, rerank — so a precision failure is attributable to a stage rather than blamed on the index or the embeddings, which are usually innocent.
 
 ## Guidance for Use
 

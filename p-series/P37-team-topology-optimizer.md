@@ -30,7 +30,7 @@ Real-world scenario: a company uses P37 to reorganize from functional teams (fro
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - Cross-team dependencies per feature held below two.
 - Team autonomy score above 8/10.
 - Time to market for a new capability under one month.

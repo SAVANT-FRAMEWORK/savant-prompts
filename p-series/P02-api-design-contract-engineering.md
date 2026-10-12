@@ -32,7 +32,7 @@ Concrete artifacts:
 - `generated/` — auto-generated server stubs and client SDKs (Python, TypeScript, Go); generated code is the source of truth, controllers are never hand-written.
 - `tests/api/contract-tests/` — schema validation and example round-trip tests.
 
-Debugging checks from the source: health endpoint reports the OpenAPI version; `openapi-diff` in CI reports zero breaking changes without deprecation notice; security headers verified via `curl -I`; every example payload validated against its schema; generated client compiles cleanly.
+Debugging checks: health endpoint reports the OpenAPI version; `openapi-diff` in CI reports zero breaking changes without deprecation notice; security headers verified via `curl -I`; every example payload validated against its schema; generated client compiles cleanly.
 
 Telemetry thresholds from the operations abstract: time to first consumer integration under 1 day; zero breaking changes per quarter; fewer than 2 "how do I..." support tickets per month.
 
@@ -40,7 +40,7 @@ Downstream integration: P03 maps API schemas to database entities; P04 derives t
 
 ## Merits
 
-Source-stated outcomes: a 70% reduction in integration bugs between frontend and AI backend, and 50% faster third-party onboarding through self-documenting contracts. Rate-limit headers enable client-side backoff, which reduces retry storms. The structural merit is that compatibility and security become CI gates rather than review opinions — a breaking change cannot ship silently, and an unauthenticated endpoint fails the build.
+Stated outcomes: a 70% reduction in integration bugs between frontend and AI backend, and 50% faster third-party onboarding through self-documenting contracts. Rate-limit headers enable client-side backoff, which reduces retry storms. The structural merit is that compatibility and security become CI gates rather than review opinions — a breaking change cannot ship silently, and an unauthenticated endpoint fails the build.
 
 ## Guidance for Use
 

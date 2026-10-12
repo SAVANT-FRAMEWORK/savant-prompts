@@ -31,7 +31,7 @@ Concrete artifacts:
 - `deliverables/p13-event-schema.yml` — event types, payloads, ordering constraints.
 - `deliverables/p13-visual-diagram.puml` — PlantUML state diagram rendered in CI, auto-refreshed from runtime state.
 
-Debugging checks from the source: 100% of states reachable from initial with zero deadlocks; zero conflicting transitions for any (state, event) pair; 100 adversarial events processed in causal order with zero out-of-order transitions; automatic timeout transition firing within 1100 ms of a 1000 ms deadline (no stuck agents); live diagram matching runtime state.
+Debugging checks: 100% of states reachable from initial with zero deadlocks; zero conflicting transitions for any (state, event) pair; 100 adversarial events processed in causal order with zero out-of-order transitions; automatic timeout transition firing within 1100 ms of a 1000 ms deadline (no stuck agents); live diagram matching runtime state.
 
 Telemetry thresholds from the operations abstract: infinite-loop rate 0% under hard limits; average path length to completion under 5 states; state transition latency under 50 ms. The abstract's reference case is a customer-service bot where explicit states broke the "I didn't understand, please repeat" death spiral and cut escalation to humans by 60%.
 
@@ -39,7 +39,7 @@ Downstream integration: P14 consumes entry/exit actions as tool call schemas; P1
 
 ## Merits
 
-Source-stated outcomes: a 60% reduction in agent logic bugs and 80% faster onboarding of new agent behaviors through declarative definitions. The structural merit is verifiability: reachability, deadlock freedom, and determinism are proven against the spec in CI before the agent runs, and the immutable event history makes any misbehavior replayable rather than a log-grep exercise.
+Stated outcomes: a 60% reduction in agent logic bugs and 80% faster onboarding of new agent behaviors through declarative definitions. The structural merit is verifiability: reachability, deadlock freedom, and determinism are proven against the spec in CI before the agent runs, and the immutable event history makes any misbehavior replayable rather than a log-grep exercise.
 
 ## Guidance for Use
 

@@ -8,7 +8,6 @@ Author: Dr. Christabel Odeta — SAVANT FRAMEWORK · CLAI-OS · AEGIS-GLOBAL
 Last Updated: 2026-08-12
 SHA-256: 79774ff8986e2f09266e89c986d563c09cc1e9eff4a19073fa013b1540a64e46
 Parent-Hash: GENESIS (catalog root; genealogy per GOVERNANCE.md §4.3)
-Source-Batch: user_pasted_clipboard_long_content_as_file_SAVANT_FRAMEWORK_PROMPT_ENGINEERING_001_2.txt
 ---
 
 # KEY-001: Universal System Architect

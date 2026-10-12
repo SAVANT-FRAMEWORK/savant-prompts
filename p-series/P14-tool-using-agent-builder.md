@@ -31,7 +31,7 @@ Concrete artifacts:
 - `deliverables/p14-version-policy.md` — semantic versioning rules, deprecation schedule, migration procedures.
 - `deliverables/p14-discovery-benchmark.json` — intent-to-tool matching accuracy on a labeled dataset.
 
-Debugging checks from the source: over 95% of tool parameters carrying type, constraint, and example; invocation success rate above 0.95; compatibility endpoint returning breaking changes and migration guides for version pairs; over 80% of discovery intents surfacing the correct tool in the top 3; 100% of auto-generated examples passing schema validation; zero invocations missing telemetry.
+Debugging checks: over 95% of tool parameters carrying type, constraint, and example; invocation success rate above 0.95; compatibility endpoint returning breaking changes and migration guides for version pairs; over 80% of discovery intents surfacing the correct tool in the top 3; 100% of auto-generated examples passing schema validation; zero invocations missing telemetry.
 
 Telemetry thresholds from the operations abstract: tool success rate above 99% including retries; fewer than 3 tool calls per task on average; zero unauthorized or unsafe tool usages under schema enforcement. The abstract's reference case is a DevOps assistant that runs kubectl commands with validation, blocking accidental deletion of a production namespace.
 
@@ -39,7 +39,7 @@ Downstream integration: P15 maps agent roles to tool capabilities; P16 generates
 
 ## Merits
 
-Source-stated outcomes: a 70% reduction in tool invocation failures and 50% faster tool onboarding through generated documentation. The structural merit is that malformed invocations fail validation before execution rather than crashing downstream, tool updates cannot break agents silently (deprecation windows and migration guides are enforced), and every call is authorized, sandboxed, and logged — which is what makes an unsafe-action rate of zero auditable rather than aspirational.
+Stated outcomes: a 70% reduction in tool invocation failures and 50% faster tool onboarding through generated documentation. The structural merit is that malformed invocations fail validation before execution rather than crashing downstream, tool updates cannot break agents silently (deprecation windows and migration guides are enforced), and every call is authorized, sandboxed, and logged — which is what makes an unsafe-action rate of zero auditable rather than aspirational.
 
 ## Guidance for Use
 

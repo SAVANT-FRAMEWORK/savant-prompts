@@ -32,7 +32,7 @@ Concrete artifacts:
 - `docs/db/partitioning-strategy.md` — partition key rationale (tenant, time, or hash), archive policy, retention schedule.
 - `tests/db/migration-tests/` — automated rollback and data-integrity validation.
 
-Debugging checks from the source: no query above 100 ms at p95 in the slow log; zero unused indexes in `pg_stat_user_indexes` (or documented exceptions); `liquibase rollbackCount 1` clean in staging; EXPLAIN confirms partition pruning rather than full table scans; vector index recall above 95% on nearest-neighbor queries.
+Debugging checks: no query above 100 ms at p95 in the slow log; zero unused indexes in `pg_stat_user_indexes` (or documented exceptions); `liquibase rollbackCount 1` clean in staging; EXPLAIN confirms partition pruning rather than full table scans; vector index recall above 95% on nearest-neighbor queries.
 
 Telemetry thresholds from the operations abstract: query p99 under 100 ms at 10× scale; zero migration downtime (online migrations); predictable, linear storage growth.
 
@@ -40,7 +40,7 @@ Connection pool sizing comes from P01 scale bounds (max concurrent requests × 2
 
 ## Merits
 
-Source-stated outcomes: 50% faster context retrieval for RAG pipelines and a 90% reduction in migration-related outages. The structural merit is reversibility: every migration can be rolled back and proven clean in staging before it touches production, which converts schema changes from high-risk events into routine operations. Coordinated vector and relational design also prevents the dimension-mismatch class of failures when embedding models change.
+Stated outcomes: 50% faster context retrieval for RAG pipelines and a 90% reduction in migration-related outages. The structural merit is reversibility: every migration can be rolled back and proven clean in staging before it touches production, which converts schema changes from high-risk events into routine operations. Coordinated vector and relational design also prevents the dimension-mismatch class of failures when embedding models change.
 
 ## Guidance for Use
 

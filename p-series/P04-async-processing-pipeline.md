@@ -32,7 +32,7 @@ Concrete artifacts:
 - `dashboards/pipeline.json` — Grafana dashboard: queue depth, latency, error rate, per-task spend.
 - `docs/pipeline/runbooks.md` — incident runbooks for queue backup, dead-letter surge, and worker crash loops.
 
-PromQL debugging checks from the source: task completion rate above 0.999; retries under 10% of failures (most tasks succeed on first attempt); average queue depth below worker count × 10; per-task spend within 10% of the P01 cost model; dead-letter count at zero or documented.
+PromQL debugging checks: task completion rate above 0.999; retries under 10% of failures (most tasks succeed on first attempt); average queue depth below worker count × 10; per-task spend within 10% of the P01 cost model; dead-letter count at zero or documented.
 
 Telemetry thresholds from the operations abstract: sustained throughput above 1000 requests per second per core on the async path (versus under 50 synchronous); error rate during traffic spikes below 0.1%; flat memory under load (no connection leaks).
 
@@ -40,7 +40,7 @@ Downstream integration: P05 consumes worker definitions as Kubernetes manifests;
 
 ## Merits
 
-Source-stated outcomes: 99.9% task completion despite transient failures, and a 40% reduction in idle compute spend through queue-depth-driven worker scaling. The structural merit is that failure becomes a first-class, inspectable state — dead letters are quarantined with context rather than crashing workers in a loop, and every retry decision is classified and bounded instead of left to defaults.
+Stated outcomes: 99.9% task completion despite transient failures, and a 40% reduction in idle compute spend through queue-depth-driven worker scaling. The structural merit is that failure becomes a first-class, inspectable state — dead letters are quarantined with context rather than crashing workers in a loop, and every retry decision is classified and bounded instead of left to defaults.
 
 ## Guidance for Use
 

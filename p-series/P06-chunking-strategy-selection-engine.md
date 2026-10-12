@@ -31,7 +31,7 @@ Concrete artifacts:
 - `deliverables/p6-type-detector.md` — detection heuristics, accuracy report, failure modes.
 - `deliverables/p6-metadata-schema.yml` — chunk metadata schema with lineage and provenance.
 
-Debugging checks from the source: average boundary score above 0.80; type detection accuracy above 95% on a labeled corpus; metadata coverage at 1.0 (every chunk carries source and structural metadata); token overhead from overlap and metadata under 5%; coverage completeness at 100% against the original text.
+Debugging checks: average boundary score above 0.80; type detection accuracy above 95% on a labeled corpus; metadata coverage at 1.0 (every chunk carries source and structural metadata); token overhead from overlap and metadata under 5%; coverage completeness at 100% against the original text.
 
 Telemetry thresholds from the operations abstract: Hit Rate@5 above 85% (the answer appears in the top 5 chunks); human-rated chunk coherence above 0.8; processing throughput above 100 documents per minute.
 
@@ -39,7 +39,7 @@ Chunking runs as a P04 background task. Downstream integration: P07 consumes chu
 
 ## Merits
 
-Source-stated outcomes: a 35% improvement in RAG answer relevance and a 50% reduction in token waste from oversized chunks; the operations abstract reports a contract-analysis case where boundary-aware chunking lifted retrieval from 60% to 92% hit rate. The structural merit is that chunking decisions are type-aware, scored, and auditable rather than a global constant nobody can justify — and no downstream stage ever needs to re-chunk.
+Stated outcomes: a 35% improvement in RAG answer relevance and a 50% reduction in token waste from oversized chunks; the operations abstract reports a contract-analysis case where boundary-aware chunking lifted retrieval from 60% to 92% hit rate. The structural merit is that chunking decisions are type-aware, scored, and auditable rather than a global constant nobody can justify — and no downstream stage ever needs to re-chunk.
 
 ## Guidance for Use
 

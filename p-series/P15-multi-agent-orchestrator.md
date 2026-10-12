@@ -31,7 +31,7 @@ Concrete artifacts:
 - `deliverables/p15-deadlock-analysis.md` — detected deadlock scenarios, resolution strategies, prevention patterns.
 - `deliverables/p15-message-schema.yml` — typed message definitions with validation rules.
 
-Debugging checks from the source: 100% delivery across 1000 messages among 5 agents with causal ordering preserved; consensus reached without deadlock in over 95% of scenarios and zero split-brain; injected deadlock detected within 2× message timeout with escalation triggered; reported progress within 5% of actual sub-task completion; role assignment matching expert assignment over 85% of the time; complete conversation logs with no gaps and consistent timestamps.
+Debugging checks: 100% delivery across 1000 messages among 5 agents with causal ordering preserved; consensus reached without deadlock in over 95% of scenarios and zero split-brain; injected deadlock detected within 2× message timeout with escalation triggered; reported progress within 5% of actual sub-task completion; role assignment matching expert assignment over 85% of the time; complete conversation logs with no gaps and consistent timestamps.
 
 Telemetry thresholds from the operations abstract: task completion time under 50% of the single-agent baseline; inter-agent message overhead under 10% of total time; conflict resolution required on under 5% of tasks. The abstract's reference case is a content platform where research, writer, editor, and fact-checker agents produce articles in 10 minutes versus 2 hours for a single agent.
 
@@ -39,7 +39,7 @@ Downstream integration: P16 receives the escalation handler for consensus deadlo
 
 ## Merits
 
-Source-stated outcomes: 3× throughput on complex multi-step tasks and a 50% reduction in agent coordination bugs. The structural merit is failure isolation: one agent's crash no longer strands its peers — heartbeats detect the silence, sub-tasks reassign, and progress reporting stays honest within 5% of actual. Consensus with tested deadlock detection converts multi-agent disagreement from a hang risk into a bounded, escalating procedure.
+Stated outcomes: 3× throughput on complex multi-step tasks and a 50% reduction in agent coordination bugs. The structural merit is failure isolation: one agent's crash no longer strands its peers — heartbeats detect the silence, sub-tasks reassign, and progress reporting stays honest within 5% of actual. Consensus with tested deadlock detection converts multi-agent disagreement from a hang risk into a bounded, escalating procedure.
 
 ## Guidance for Use
 
@@ -51,6 +51,6 @@ Source-stated outcomes: 3× throughput on complex multi-step tasks and a 50% red
 
 **Pairing:** P16 is the required escalation target — deploy it before trusting P15 with irreversible work. P13 machines are the agents; P14 tools are their hands. Role optimality below 50% indicates capability profiles need work in P14, not more orchestration tuning here.
 
-**Common misuse:** direct agent-to-agent API calls instead of the bus; shared state without a replication strategy, producing consensus on stale data; message TTLs tuned for throughput that silently drop slow conversations; and no deadlock testing — the source's debugging module injects deadlocks deliberately, because an undetected one is indistinguishable from slow progress.
+**Common misuse:** direct agent-to-agent API calls instead of the bus; shared state without a replication strategy, producing consensus on stale data; message TTLs tuned for throughput that silently drop slow conversations; and no deadlock testing — the canonical debugging module injects deadlocks deliberately, because an undetected one is indistinguishable from slow progress.
 
 C0 informational classification; confers no clinical, legal, financial, or safety authority.

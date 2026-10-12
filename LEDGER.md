@@ -10,11 +10,11 @@ Last Updated: 2026-08-12
 governance canon: every prompt carries ID, version, content hash, and parent hash.
 PENDING entries are honest absences — no placeholders, no reconstructions.
 
-Licensing (canonical rule, Dr. Odeta 2026-08-12): KEY-001–KEY-020 (tiers 1–4)
-are AGPL-3.0. KEY-021 through KEY-075 are Savant-Commercial-1.0.
-See LICENSING.md.
+Licensing (canonical rule, amended 2026-10-12): KEY-001–KEY-015 are AGPL-3.0
+(open tier; ≡ operations registry P01–P15). KEY-016 through KEY-075 are
+Savant-Commercial-1.0 (bodies withheld). See LICENSING.md.
 
-File paths below refer to the private canonical catalog. In this public
+File paths below refer to the canonical catalog. In this public
 repository, PRESENT open-tier files live under `open-tier/` and PRESENT
 commercial-tier abstracts live under `commercial-tier/`. PENDING keys have
 no files anywhere — they are disclosed here as ledger rows only.
@@ -36,11 +36,11 @@ no files anywhere — they are disclosed here as ledger rows only.
 | 13 | KEY-013 | AGPL-3.0 | PENDING | — (T3 Agents) |
 | 14 | KEY-014 | AGPL-3.0 | PRESENT | tier-03-agents/KEY-014-tool-using-agent-builder.md |
 | 15 | KEY-015 | AGPL-3.0 | PENDING | — (T3 Agents) |
-| 16 | KEY-016 | AGPL-3.0 | PENDING | — (T3 Agents) |
-| 17 | KEY-017 | AGPL-3.0 | PRESENT | tier-04-production/KEY-017-performance-optimization-engineer.md |
-| 18 | KEY-018 | AGPL-3.0 | PENDING | — (T4 Production) |
-| 19 | KEY-019 | AGPL-3.0 | PENDING | — (T4 Production) |
-| 20 | KEY-020 | AGPL-3.0 | PENDING | — (T4 Production) |
+| 16 | KEY-016 | Savant-Commercial-1.0 | PENDING | — (T3 Agents) |
+| 17 | KEY-017 | Savant-Commercial-1.0 | ABSTRACT | open-tier/KEY-017-performance-optimization-engineer.md |
+| 18 | KEY-018 | Savant-Commercial-1.0 | PENDING | — (T4 Production) |
+| 19 | KEY-019 | Savant-Commercial-1.0 | PENDING | — (T4 Production) |
+| 20 | KEY-020 | Savant-Commercial-1.0 | PENDING | — (T4 Production) |
 | 21 | KEY-021 | Savant-Commercial-1.0 | PRESENT | tier-05-meta-cognitive/KEY-021-prompt-auto-optimizer.md |
 | 22 | KEY-022 | Savant-Commercial-1.0 | PRESENT | tier-05-meta-cognitive/KEY-022-cognitive-load-distributor.md |
 | 23 | KEY-023 | Savant-Commercial-1.0 | PRESENT | tier-05-meta-cognitive/KEY-023-attention-mechanism-exploiter.md |
@@ -104,9 +104,9 @@ no files anywhere — they are disclosed here as ledger rows only.
 
 Added 2026-10-06. S-001–S-020 are open under AGPL-3.0 (canonical ruling 2026-10-06);
 S-021–S-062 are commercial. PENDING entries are honest absences — no placeholders.
-Titles for S-021–S-052 and the S-053–S-062 block label are VERIFIED-FROM-SOURCE
-(SAVANT Core Index v1.0); P-071–P-075 names VERIFIED-FROM-SOURCE (Constitutional
-Intelligence Series, Chunk 11).
+Titles for S-021–S-052 and the S-053–S-062 block label are verified against the
+SAVANT Core Index v1.0; P-071–P-075 names are verified against the Constitutional
+Intelligence Series.
 
 | ID | Title | License | Status | File |
 |----|-------|---------|--------|------|
@@ -190,8 +190,8 @@ The registry closes at S-062:
 |----|-------|---------|--------|------|
 | PRIME-001 | SAVANT PRIME — The Master Prompt | Savant-Commercial-1.0 | ABSTRACT | commercial-tier/PRIME-001-savant-prime-master-prompt.md |
 
-PRIME governs all corpus execution: epigenetic mode detection, Sevenfold Reasoning,
-S50 gates G1–G5, output contract. Public governance documentation: savant-docs `docs/prime/`.
+PRIME governs all corpus execution: epigenetic mode detection, S50 gates
+G1–G5, output contract. Public governance documentation: savant-docs `docs/prime/`.
 
 ## Deployment Agent Corpus (20 agents)
 
@@ -227,48 +227,50 @@ except harmonized homonyms FUND, DEPLOY, AUDIT.
 
 Added 2026-10-06 per PRIME routing table (canonical corpus map: KEY 1–50 ≡ P-001–P-050;
 P-051–P-070 CLAI-OS sovereign infrastructure, AGPL-3.0, recorded in the clai-os repository).
-Domain attributions below are transcribed from the PRIME v1.0 routing table; canonical
-titles and texts are pending ingestion. PENDING entries are honest absences.
+De-commercialized 2026-10-12: P-071–P-110 are an open documentation release (prompt bodies
+withheld for validation), recorded in the clai-os repository. Domain attributions below are
+transcribed from the PRIME v1.0 routing table; canonical titles and texts are pending
+ingestion. PENDING entries are honest absences.
 
 | ID | Title | License | Status | File |
 |----|-------|---------|--------|------|
-| P-071 | Pediatric Guardian | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Pediatric) |
-| P-072 | Maternal Protector | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Maternal) |
-| P-073 | Palliative Navigator | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Palliative) |
-| P-074 | Emergency Architect | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Emergency) |
-| P-075 | AMR Fighter | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Stewardship) |
-| P-076 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Immunization) |
-| P-077 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Transfusion) |
-| P-078 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Anaphylaxis) |
-| P-079 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Pain) |
-| P-080 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Ethics) |
-| P-081 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Handoffs) |
-| P-082 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: SDOH) |
-| P-083 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Advocacy) |
-| P-084 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Disaster) |
-| P-085 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Neonatal) |
-| P-086 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Zoonotic) |
-| P-087 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Climate) |
-| P-088 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Teaching) |
-| P-089 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: PRO/QOL) |
-| P-090 | — | Savant-Commercial-1.0 | PENDING | — (Clinical Human Good — domain per PRIME routing table: Resilience) |
-| P-091 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Genomics) |
-| P-092 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: ctDNA) |
-| P-093 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: TME) |
-| P-094 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: MRD) |
-| P-095 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Radiation) |
-| P-096 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Surgical margins) |
-| P-097 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: CAR-T) |
-| P-098 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Pediatric-oncology/SS dual pathway) |
-| P-099 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Geriatric) |
-| P-100 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Prevention) |
-| P-101 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Psycho-oncology) |
-| P-102 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Trial matching) |
-| P-103 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: RWE/digital twins) |
-| P-104 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Cold chain) |
-| P-105 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Data sovereignty) |
-| P-106 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Traditional medicine) |
-| P-107 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Nutrition) |
-| P-108 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Survivorship) |
-| P-109 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Health economics) |
-| P-110 | — | Savant-Commercial-1.0 | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Planetary health) |
+| P-071 | Pediatric Guardian | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: Pediatric) |
+| P-072 | Maternal Protector | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: Maternal) |
+| P-073 | Palliative Navigator | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: Palliative) |
+| P-074 | Emergency Architect | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: Emergency) |
+| P-075 | AMR Fighter | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: Stewardship) |
+| P-076 | — | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: Immunization) |
+| P-077 | — | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: Transfusion) |
+| P-078 | — | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: Anaphylaxis) |
+| P-079 | — | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: Pain) |
+| P-080 | — | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: Ethics) |
+| P-081 | — | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: Handoffs) |
+| P-082 | — | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: SDOH) |
+| P-083 | — | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: Advocacy) |
+| P-084 | — | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: Disaster) |
+| P-085 | — | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: Neonatal) |
+| P-086 | — | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: Zoonotic) |
+| P-087 | — | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: Climate) |
+| P-088 | — | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: Teaching) |
+| P-089 | — | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: PRO/QOL) |
+| P-090 | — | Open documentation release (validation) | PENDING | — (Clinical Human Good — domain per PRIME routing table: Resilience) |
+| P-091 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Genomics) |
+| P-092 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: ctDNA) |
+| P-093 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: TME) |
+| P-094 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: MRD) |
+| P-095 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Radiation) |
+| P-096 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Surgical margins) |
+| P-097 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: CAR-T) |
+| P-098 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Pediatric-oncology/SS dual pathway) |
+| P-099 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Geriatric) |
+| P-100 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Prevention) |
+| P-101 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Psycho-oncology) |
+| P-102 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Trial matching) |
+| P-103 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: RWE/digital twins) |
+| P-104 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Cold chain) |
+| P-105 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Data sovereignty) |
+| P-106 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Traditional medicine) |
+| P-107 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Nutrition) |
+| P-108 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Survivorship) |
+| P-109 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Health economics) |
+| P-110 | — | Open documentation release (validation) | PENDING | — (Precision Oncology & Global Health — domain per PRIME routing table: Planetary health) |

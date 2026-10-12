@@ -31,7 +31,7 @@ Described at the methodological level only; operational detail is withheld.
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - Collective accuracy more than 15% above the best individual agent.
 - Convergence within five rounds.
 - Groupthink rate below 5%.

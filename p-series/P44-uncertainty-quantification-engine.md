@@ -31,7 +31,7 @@ Described at the methodological level only; operational detail is withheld.
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - Calibration achieved: 80% stated confidence corresponds to 80% realized accuracy.
 - User trust scores above 4.5/5.
 - Decision quality improved 20%, measured as users acting appropriately on the uncertainty they were shown.

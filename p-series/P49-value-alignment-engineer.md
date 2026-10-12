@@ -31,7 +31,7 @@ Described at the methodological level only; operational detail is withheld.
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - Stakeholder approval above 90%.
 - Value conflicts resolved on stated principles rather than ad hoc.
 - Transparency: every decision traceable to a rationale.

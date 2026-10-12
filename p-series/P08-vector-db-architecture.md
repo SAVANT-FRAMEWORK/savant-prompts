@@ -31,7 +31,7 @@ Concrete artifacts:
 - `deliverables/p8-hybrid-query-planner.md` — fusion strategy, query routing, cost estimation.
 - `deliverables/p8-replication-config.yml` — replica topology, failover rules, backup schedule.
 
-Debugging checks from the source: recall@10 above 0.95 on held-out queries; p99 latency under 50 ms for standard queries; hybrid outperforms pure vector on keyword-heavy queries; tenant isolation verified (no cross-tenant leakage); failover promotion within 10 seconds with zero query errors during transition; storage per vector within 10% of theoretical size (dimension × 4 bytes plus metadata overhead).
+Debugging checks: recall@10 above 0.95 on held-out queries; p99 latency under 50 ms for standard queries; hybrid outperforms pure vector on keyword-heavy queries; tenant isolation verified (no cross-tenant leakage); failover promotion within 10 seconds with zero query errors during transition; storage per vector within 10% of theoretical size (dimension × 4 bytes plus metadata overhead).
 
 Telemetry thresholds from the operations abstract: p99 search latency under 100 ms at target scale; full-dataset index build under 1 hour; query throughput above 1000 QPS.
 
@@ -39,7 +39,7 @@ Downstream integration: P09 initializes retrievers from the index configuration;
 
 ## Merits
 
-Source-stated outcomes: 10× faster retrieval at scale and a 60% reduction in vector storage cost through index tuning. The operations abstract notes that staying on pgvector when PostgreSQL is already deployed avoids adding a separate vector database, reducing operational surface. The structural merit is that index choice is a justified, measurable decision with a recall-latency curve attached — and retrieval survives zone failure and primary loss without manual intervention.
+Stated outcomes: 10× faster retrieval at scale and a 60% reduction in vector storage cost through index tuning. The operations abstract notes that staying on pgvector when PostgreSQL is already deployed avoids adding a separate vector database, reducing operational surface. The structural merit is that index choice is a justified, measurable decision with a recall-latency curve attached — and retrieval survives zone failure and primary loss without manual intervention.
 
 ## Guidance for Use
 

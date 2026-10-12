@@ -31,7 +31,7 @@ Described at the methodological level only; operational detail is withheld.
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - New-task acquisition at 80% accuracy from fewer than ten examples.
 - Transfer from related tasks contributes an approximately 30% performance boost.
 - Out-of-distribution detection recall above 90%, so genuinely novel tasks are flagged rather than confidently mishandled.

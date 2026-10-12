@@ -30,7 +30,7 @@ Real-world scenario: a platform company uses P33. More than fifty partner integr
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - Breaking changes reaching production: zero.
 - Consumer integration time under one day.
 - Documentation accuracy: 100% (documentation generated from source of truth).

@@ -31,7 +31,7 @@ Described at the methodological level only; operational detail is withheld.
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - Causal-chain accuracy above 90% over chains of ten or more steps.
 - Counterfactual computation within twice the base inference time.
 - Narrative coherence above 95%.

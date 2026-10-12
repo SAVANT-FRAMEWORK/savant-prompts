@@ -8,7 +8,6 @@ Author: Dr. Christabel Odeta — SAVANT FRAMEWORK · CLAI-OS · AEGIS-GLOBAL
 Last Updated: 2026-08-12
 SHA-256: bc929987aef20d85c39e3b8b7a26db84b610bfae8ed89737830d2f069b948b9a
 Parent-Hash: GENESIS (catalog root; genealogy per GOVERNANCE.md §4.3)
-Source-Batch: user_pasted_clipboard_long_content_as_file_SAVANT_FRAMEWORK_PROMPT_ENGINEERING_001_2.txt
 ---
 
 # KEY-012: RAG Evaluation Designer
@@ -55,6 +54,6 @@ FORMAT:
 •  CI/CD integration (GitHub Actions)
 •  Report template with visualizations
 
-**Optimization:** LLM-as-judge costs ~$0.01 per evaluation but correlates 0.85+ with human ratings. Calibrate against 50 human judgments before scaling.
+**Optimization:** LLM-as-judge costs on the order of a cent per evaluation but correlates 0.85+ with human ratings. Calibrate against 50 human judgments before scaling.
 
 ---

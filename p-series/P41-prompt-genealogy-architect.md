@@ -31,7 +31,7 @@ Described at the methodological level only; the operational parameters that woul
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - Prompt improvement of roughly 5% per week during the initial evolution phase.
 - Human prompt-engineering time reduced by approximately 80%.
 - Convergence detected when improvement falls below 1% over three generations.

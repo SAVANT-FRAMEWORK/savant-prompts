@@ -12,7 +12,7 @@ Last Updated: 2026-10-12
 
 *Tier 7 — Specialized of the SAVANT FRAMEWORK operations prompt registry.*
 
-P34 designs test strategies with the end-state objective summarized in the source as the confidence to deploy on Friday afternoon. It allocates testing effort by risk rather than by habit, constructing a test pyramid in which unit, integration, end-to-end, performance, and mutation testing each cover the failure modes the others cannot.
+P34 designs test strategies with the end-state objective summarized in the canonical documentation as the confidence to deploy on Friday afternoon. It allocates testing effort by risk rather than by habit, constructing a test pyramid in which unit, integration, end-to-end, performance, and mutation testing each cover the failure modes the others cannot.
 
 The reference deployment runs over five weeks: map the test pyramid to risk; implement unit tests above 80% coverage; add integration tests at all boundaries; build end-to-end tests for critical paths; and add performance baselines plus mutation testing. The deployment artifact set is a test suite, a coverage report, and CI configuration.
 
@@ -30,7 +30,7 @@ Real-world scenario: a team uses P34 to achieve continuous deployment — ten de
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - CI execution time under ten minutes.
 - Flaky test rate below 1%.
 - Production defect escape rate below 0.5%.

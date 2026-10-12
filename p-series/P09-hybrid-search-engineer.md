@@ -39,13 +39,13 @@ Concrete artifacts:
 
 Debugging checks: hybrid retrieval outperforms pure vector on keyword-heavy queries in the validation suite; under 5% duplicate content in the final candidate set; fusion adds less than 20 ms over single-retriever latency; tenant-filtered queries return zero cross-tenant chunks.
 
-Telemetry thresholds from the operations abstract: keyword-query hit rate above 80% (the source case measured under 40% with pure semantic retrieval); semantic-query hit rate maintained above 85% after fusion — a fusion strategy that rescues keyword queries but degrades semantic ones is a failed configuration, not a trade-off.
+Telemetry thresholds from the operations abstract: keyword-query hit rate above 80% (the canonical case measured under 40% with pure semantic retrieval); semantic-query hit rate maintained above 85% after fusion — a fusion strategy that rescues keyword queries but degrades semantic ones is a failed configuration, not a trade-off.
 
 Downstream integration: P10 consumes the fused, deduplicated candidate set for reranking; P11 receives the ranked output via P10; P12 runs the A/B comparisons and tracks both hit-rate families as regression metrics.
 
 ## Merits
 
-Source-stated outcomes: keyword-query hit rate rising from under 40% to above 80% when fusion is added to a pure-semantic baseline, with semantic hit rate preserved above 85% and fusion latency overhead under 20 ms. The operations abstract's reference case is a medical database where clinicians searching "myocardial infarction" and patients searching "heart attack" retrieve the same relevant articles. The structural merit is robustness across query vocabularies: retrieval quality no longer depends on whether the user's words match the corpus's words.
+Stated outcomes: keyword-query hit rate rising from under 40% to above 80% when fusion is added to a pure-semantic baseline, with semantic hit rate preserved above 85% and fusion latency overhead under 20 ms. The operations abstract's reference case is a medical database where clinicians searching "myocardial infarction" and patients searching "heart attack" retrieve the same relevant articles. The structural merit is robustness across query vocabularies: retrieval quality no longer depends on whether the user's words match the corpus's words.
 
 ## Guidance for Use
 

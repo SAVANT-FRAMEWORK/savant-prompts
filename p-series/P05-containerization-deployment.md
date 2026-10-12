@@ -32,7 +32,7 @@ Concrete artifacts:
 - `security/trivy-config.yml` — scan configuration plus accepted-risk registry.
 - `docs/deployment/runbooks.md` — rollback, secret rotation, and node-drain procedures.
 
-Debugging checks from the source: image size under 200 MB for Python services (under 100 MB for Go); zero HIGH or CRITICAL Trivy findings (or documented, mitigated acceptances); zero 5xx during pod termination with a 30-second grace period; rollout completes within `progressDeadlineSeconds`; CPU within 20% of request and memory within 30% of limit; HPA adds replicas within 60 seconds of sustained load.
+Debugging checks: image size under 200 MB for Python services (under 100 MB for Go); zero HIGH or CRITICAL Trivy findings (or documented, mitigated acceptances); zero 5xx during pod termination with a 30-second grace period; rollout completes within `progressDeadlineSeconds`; CPU within 20% of request and memory within 30% of limit; HPA adds replicas within 60 seconds of sustained load.
 
 Telemetry thresholds from the operations abstract: image build time under 2 minutes with layer caching; image size under 200 MB; zero CRITICAL vulnerabilities at deployment.
 
@@ -40,7 +40,7 @@ Downstream integration: the P05 base image becomes the FROM image for every high
 
 ## Merits
 
-Source-stated outcomes: an 80% reduction in "works on my machine" incidents and 60% faster deployment cycles through GitOps automation. The hardening posture (non-root, read-only rootfs, scanned images, mounted secrets) is also what satisfies compliance audits without last-minute remediation. Rollback via `kubectl rollout undo` makes failed deploys a routine event rather than an incident.
+Stated outcomes: an 80% reduction in "works on my machine" incidents and 60% faster deployment cycles through GitOps automation. The hardening posture (non-root, read-only rootfs, scanned images, mounted secrets) is also what satisfies compliance audits without last-minute remediation. Rollback via `kubectl rollout undo` makes failed deploys a routine event rather than an incident.
 
 ## Guidance for Use
 

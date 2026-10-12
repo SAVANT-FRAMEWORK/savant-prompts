@@ -31,7 +31,7 @@ Real-world scenario: a bank uses P38 to migrate its core banking system — a si
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - Downtime during migration: zero.
 - Rollback time under five minutes.
 - Data consistency 100%, continuously verified.

@@ -30,7 +30,7 @@ Real-world scenario: a startup uses P39 to reduce its monthly cloud bill by more
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - Total cloud spend reduced by approximately 30%.
 - Cost per transaction reduced by approximately 40%.
 - Performance maintained or improved throughout.

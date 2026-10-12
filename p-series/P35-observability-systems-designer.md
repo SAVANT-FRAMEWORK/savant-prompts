@@ -30,7 +30,7 @@ Real-world scenario: a SaaS company uses P35. A database slowdown is detected an
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - Mean time to detect under two minutes.
 - Mean time to resolve under thirty minutes.
 - Alert fatigue held below two pages per week.

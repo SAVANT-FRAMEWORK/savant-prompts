@@ -30,7 +30,7 @@ Real-world scenario: a company uses P40 to plan a two-year technical strategy. W
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - Initiative business-case clarity above 90% — leadership understands what each initiative is for.
 - On-time delivery above 80%.
 - Strategic pivot cost held below two weeks because optionality is preserved.

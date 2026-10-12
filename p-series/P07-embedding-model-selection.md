@@ -18,7 +18,7 @@ Three cooperating subsystems:
 
 1. **Model selector.** Candidate models in the registry are ranked on four axes: task performance (MRR, NDCG, precision@k on a held-out validation set), content match (language support, domain specialization, type awareness), cost efficiency (cost per million tokens, dimensionality, throughput), and operational fit (latency SLA, availability, deprecation status). Ranking is Pareto-based across quality, cost, and latency, and the recommendation is locked per content hash so identical content always routes identically.
 2. **Benchmark engine.** Task-specific evaluation datasets measure retrieval accuracy (relevant chunks in top-k), semantic similarity (cosine correlation with human judgments), and robustness (noisy, abbreviated, or translated queries). Paired significance testing across models yields 95% confidence intervals, so a "better" model is statistically better, not anecdotally better.
-3. **Cost optimizer.** Solves for maximum quality subject to a budget constraint and a quality floor, accounting for batching efficiency, instance sharing, and cache hit rates. Produces a forecast with a confidence interval; the source's acceptance check is that forecast stays within 10% of actual spend.
+3. **Cost optimizer.** Solves for maximum quality subject to a budget constraint and a quality floor, accounting for batching efficiency, instance sharing, and cache hit rates. Produces a forecast with a confidence interval; the acceptance check is that forecast stays within 10% of actual spend.
 
 ## Implementation
 
@@ -31,7 +31,7 @@ Concrete artifacts:
 - `deliverables/p7-selection-policy.yml` — routing rules: content type → model → fallback.
 - `deliverables/p7-cost-model.json` — cost forecast with sensitivity analysis.
 
-Debugging checks from the source: over 90% of selections match expert choice on the validation set; benchmarks refreshed within the last 30 days; predicted versus actual embedding spend within 10%; fallback model activates within 500 ms of primary failure; retrieval parity gap between English and non-Latin scripts under 15%.
+Debugging checks: over 90% of selections match expert choice on the validation set; benchmarks refreshed within the last 30 days; predicted versus actual embedding spend within 10%; fallback model activates within 500 ms of primary failure; retrieval parity gap between English and non-Latin scripts under 15%.
 
 Telemetry thresholds from the operations abstract: retrieval accuracy within 2% of the best benchmarked model; inference cost 50% below the naive default choice; model swap time under 1 hour through the abstraction layer.
 
@@ -39,7 +39,7 @@ Downstream integration: P08 consumes embedding dimensions and format for index c
 
 ## Merits
 
-Source-stated outcomes: a 25% improvement in retrieval precision@10 and a 40% reduction in embedding compute cost through right-sizing; the operations abstract reports a support-bot case where switching from a hosted embedding API to a local model held accuracy while removing the per-call cost. The structural merit is that selection is benchmark-validated, statistically significant, and reversible — a deprecation or outage triggers a tested fallback rather than a pipeline halt.
+Stated outcomes: a 25% improvement in retrieval precision@10 and a 40% reduction in embedding compute cost through right-sizing; the operations abstract reports a support-bot case where switching from a hosted embedding API to a local model held accuracy while removing the per-call cost. The structural merit is that selection is benchmark-validated, statistically significant, and reversible — a deprecation or outage triggers a tested fallback rather than a pipeline halt.
 
 ## Guidance for Use
 

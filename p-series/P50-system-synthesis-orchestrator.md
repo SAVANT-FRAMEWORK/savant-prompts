@@ -31,7 +31,7 @@ Described at the methodological level only; operational detail is withheld.
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - Composed capability exceeds the sum of the parts — measurable emergent capability.
 - Failures isolated locally rather than cascading.
 - Self-improvement rate compounding month over month.

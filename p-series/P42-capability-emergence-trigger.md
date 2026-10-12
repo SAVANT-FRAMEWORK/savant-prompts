@@ -31,7 +31,7 @@ Described at the methodological level only; operational detail is withheld.
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - Prerequisite accuracy above 90% required before the sequence advances.
 - Emergence detection reproducible rather than stochastic.
 - Generalization above 80% on out-of-distribution tests.

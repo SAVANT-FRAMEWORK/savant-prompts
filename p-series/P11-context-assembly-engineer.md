@@ -31,7 +31,7 @@ Concrete artifacts:
 - `deliverables/p11-priority-algorithm.md` — selection scoring formula with weights.
 - `deliverables/p11-utilization-report.json` — utilization, truncation, and diversity metrics per query type.
 
-Debugging checks from the source: average utilization above 0.80 with truncation rate below 0.05; under 5% of truncations cutting mid-sentence (all at natural boundaries); 100% of chunks carrying a source URL or document identifier; system prompt fully preserved at every window size tested (4K, 8K, 16K, 32K); at least 3 distinct sources per query where available.
+Debugging checks: average utilization above 0.80 with truncation rate below 0.05; under 5% of truncations cutting mid-sentence (all at natural boundaries); 100% of chunks carrying a source URL or document identifier; system prompt fully preserved at every window size tested (4K, 8K, 16K, 32K); at least 3 distinct sources per query where available.
 
 Telemetry thresholds from the operations abstract: token utilization above 85%; citation accuracy above 95% (correct source attached to each claim); answer completeness above 90% with no critical omissions. The abstract's reference case reduced "I don't know" responses from 25% to 8% without increasing hallucination.
 
@@ -39,7 +39,7 @@ Downstream integration: P12 evaluates answer quality against the assembled conte
 
 ## Merits
 
-Source-stated outcomes: 30% more relevant context per prompt and a 50% reduction in token waste from poor ordering. The structural merit is that truncation becomes a scored decision — the lowest-value content drops first, at a clean boundary, with the system prompt guaranteed present — rather than an accident of concatenation order. Full attribution on every chunk is also what makes citation accuracy measurable downstream.
+Stated outcomes: 30% more relevant context per prompt and a 50% reduction in token waste from poor ordering. The structural merit is that truncation becomes a scored decision — the lowest-value content drops first, at a clean boundary, with the system prompt guaranteed present — rather than an accident of concatenation order. Full attribution on every chunk is also what makes citation accuracy measurable downstream.
 
 ## Guidance for Use
 

@@ -31,7 +31,7 @@ The prompt operationalizes established software-architecture practice as a disci
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - Time to add a new feature reduced from over one week to under two days.
 - Cross-team coordination required for under 10% of features.
 - Technical debt accumulation linear rather than exponential.

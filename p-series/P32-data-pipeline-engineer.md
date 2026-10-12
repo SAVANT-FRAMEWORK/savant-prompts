@@ -30,7 +30,7 @@ Real-world scenario: a retail company uses P32 during peak trading. Black Friday
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - Data freshness under five minutes from source to warehouse.
 - Quality-issue detection within one hour.
 - Pipeline downtime below 0.1%.

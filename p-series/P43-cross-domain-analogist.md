@@ -31,7 +31,7 @@ Described at the methodological level only; operational detail is withheld.
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - More than three novel candidate solutions generated per problem.
 - Adaptation success rate above 50%.
 - Breakthrough outcomes (order-of-magnitude improvement) in more than 10% of cases.

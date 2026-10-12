@@ -30,7 +30,7 @@ Real-world scenario: a team uses P36 to justify a two-week refactoring effort to
 
 ## Merits
 
-Reported optimization telemetry from the source registry:
+Reported optimization telemetry from the canonical registry:
 - Debt-related incidents reduced 50% per quarter.
 - Sprint velocity variance held below 10%, making delivery predictable.
 - Team morale (survey) up 20%, attributed to reduced firefighting.

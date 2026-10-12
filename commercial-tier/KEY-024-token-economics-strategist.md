@@ -11,6 +11,6 @@ SHA-256: 6d0ea80cb4549110e6d210d035caf81253d98d5ffb89e4c334e8fda7950e021f
 
 # KEY-024: Token Economics Strategist
 
-Commercial prompt for minimizing cost-per-outcome across complex LLM workflows using pricing models, compression algorithms, and information theory.
+Commercial prompt for minimizing cost-per-outcome across complex LLM workflows using cost models, compression algorithms, and information theory.
 
 Full prompt body is commercial — licensed under Savant-Commercial-1.0. Inquiries: https://github.com/SAVANT-FRAMEWORK
