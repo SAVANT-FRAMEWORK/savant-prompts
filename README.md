@@ -4,11 +4,25 @@ The public face of the SAVANT FRAMEWORK canonical prompt corpus, authored by
 Dr. Christabel Odeta and governed by the SAVANT FRAMEWORK genealogy canon
 (every prompt carries ID, version, content hash, and parent hash).
 
-**Corpus map (canonical, 2026-10-06):** KEY-001–KEY-075 across 15 tiers
+**Corpus map (canonical, 2026-10-12):** KEY-001–KEY-075 across 15 tiers
 (≡ P-001–P-050 plus tier extensions) · **S-Tier S-001–S-063** meta-constitutional
-engines · **P-051–P-110** CLAI-OS modules · **PRIME-001** constitutional
-orchestration layer · **20 deployment agents** (CLAI-DEPLOY-01..10,
-AEGIS-DEPLOY-01..10). PRIME governs all corpus execution.
+engines · **P-051–P-110** CLAI-OS modules (documented in the `clai-os`
+repository — CLAI prompts exist only in the P51–P110 range) · **PRIME-001**
+constitutional orchestration layer · **20 deployment agents**
+(CLAI-DEPLOY-01..10, AEGIS-DEPLOY-01..10). PRIME governs all corpus execution.
+
+## SAVANT operations registry (P01–P50) — new 2026-10-12
+
+Per-prompt documentation for the SAVANT FRAMEWORK operations registry lives
+under [`p-series/`](p-series/):
+
+- **P01–P15 — open tier, AGPL-3.0** (canonical KEY-001..KEY-015): full
+  implementation documentation, abstracts, methodology, merits, and usage
+  guidance.
+- **P16–P50 — commercial tier** (canonical KEY-016..KEY-050): prompt bodies
+  and code withheld; names, abstracts, methodologies, and merits published
+  as open documentation. [Commercial licensing terms — inquiries via the
+  GitHub organization]
 
 ## Canonical ledger — honest-absence doctrine
 
