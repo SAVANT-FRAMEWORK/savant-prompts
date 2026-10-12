@@ -30,6 +30,3 @@ SIP-Trigger: SAVANT-S5 / REFLEXIVE
 
 **Deeper Abstraction:** Reflexive epistemology — the knower modeling the limits of knowing while knowing.
 
----Dr. Christabel Odeta
-#SavantFramework #PromptEngineering
-#PromptArchitecture #AlArchitecture #CognitiveArchitectur #MetaPrompting #RecursiveAl #AlEngineering #SystemsArchitecture #ConstitutionalAl #AIResearch #ArtificialIntelligence #LLMEngineering #AlAgents #AdvancedPrompting #ReasoningSystems #AlAlignment #EpistemicArchitecture #Machinelntelligence

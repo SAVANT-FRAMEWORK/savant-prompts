@@ -28,6 +28,3 @@ SIP-Trigger: SAVANT-S6 / PHASE
 
 **Deeper Abstraction:** Non-equilibrium thermodynamics of social/technical systems — predicting the unpredictable through structural indicators.
 
----Dr. Christabel Odeta
-#SavantFramework #PromptEngineering
-#PromptArchitecture #AlArchitecture #CognitiveArchitectur #MetaPrompting #RecursiveAl #AlEngineering #SystemsArchitecture #ConstitutionalAl #AIResearch #ArtificialIntelligence #LLMEngineering #AlAgents #AdvancedPrompting #ReasoningSystems #AlAlignment #EpistemicArchitecture #Machinelntelligence
