@@ -77,4 +77,5 @@ hashing their copy.
 
 - Org: <https://github.com/SAVANT-FRAMEWORK>
 - Docs: <https://savant-framework.github.io/savant-docs/>
+- Publications (16 works, DOI-citable, CC-BY-4.0): <https://savant-framework.github.io/savant-docs/publications/>
 - Demo: <https://savant-framework.github.io/savant-demo/>
